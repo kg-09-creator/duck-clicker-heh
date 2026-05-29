@@ -63,7 +63,7 @@ button.addEventListener("click", () => {
     container.appendChild(duck);
 
     if (duckCount >= 20 && duckCount < 50) {
-        document.body.style.background = "yellow";
+        document.body.style.background = "lightyellow";
         document.querySelector("p").innerText = "The sky's turning yellow... Things are getting strange..."
     }
 
